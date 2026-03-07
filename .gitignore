@@ -6,6 +6,7 @@ dist/
 wheels/
 *.egg-info
 .env
+data/
 
 # Virtual environments
 .venv
@@ -14,3 +15,10 @@ wheels/
 *test*/
 *test*.*
 
+# AI
+*CLAUDE*
+*note*
+
+# System files
+.DS_Store
+.apikey.yaml
